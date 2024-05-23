@@ -24,7 +24,7 @@ const config = {
       },
       backgroundImage: {
         'hero-text-gradient':
-          'linear-gradient(180deg, #ff3870 0%, #ff3870 42%, #c300c3 100%)',
+          'linear-gradient(180deg, #ff3870 0%, #ff3870 4%, #c300c3 100%)',
       },
       colors: {
         border: 'hsl(var(--border))',
