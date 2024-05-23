@@ -26,6 +26,10 @@ const config = {
         'hero-text-gradient':
           'linear-gradient(180deg, #ff3870 0%, #ff3870 4%, #c300c3 100%)',
         'hero-bg': 'url(/hero-shape.svg)',
+        'button-gradient': 'linear-gradient(to right, #ffbd84 0, #ff1f8e 100%)',
+      },
+      boxShadow: {
+        'btn-shadow': '0 10px 15px 0 rgba(56, 0, 189, 0.2)',
       },
       colors: {
         border: 'hsl(var(--border))',
