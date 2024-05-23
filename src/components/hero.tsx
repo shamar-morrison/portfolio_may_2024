@@ -23,7 +23,7 @@ function Hero() {
             'UI/UX Design.',
             'Frontend Frameworks.',
             'API Design.',
-            'Content Management Systems.',
+            'Mobile Development.',
             'SEO Strategies.',
             'Web Performance Optimization.',
             'Responsive Design.',

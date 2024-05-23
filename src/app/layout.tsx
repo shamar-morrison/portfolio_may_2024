@@ -20,8 +20,8 @@ export default function RootLayout({
       <head />
       <body
         className={cn(
-          'min-h-screen bg-background font-sans antialiased',
-          inter.variable
+          'h-[50000px] min-h-screen bg-background font-sans antialiased',
+          inter.variable,
         )}>
         {children}
       </body>
