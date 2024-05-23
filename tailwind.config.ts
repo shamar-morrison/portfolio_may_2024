@@ -25,6 +25,7 @@ const config = {
       backgroundImage: {
         'hero-text-gradient':
           'linear-gradient(180deg, #ff3870 0%, #ff3870 4%, #c300c3 100%)',
+        'hero-bg': 'url(/hero-shape.svg)',
       },
       colors: {
         border: 'hsl(var(--border))',
