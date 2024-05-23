@@ -1,5 +1,5 @@
 import type { Config } from 'tailwindcss'
-const { fontFamily } = require('tailwindcss/defaultTheme')
+import { fontFamily } from 'tailwindcss/defaultTheme'
 
 const config = {
   darkMode: ['class'],
@@ -20,7 +20,11 @@ const config = {
     },
     extend: {
       fontFamily: {
-        sans: ['var(--font-sans', ...fontFamily.sans],
+        sans: ['var(--font-sans)', ...fontFamily.sans],
+      },
+      backgroundImage: {
+        'hero-text-gradient':
+          'linear-gradient(180deg, #ff3870 0%, #ff3870 42%, #c300c3 100%)',
       },
       colors: {
         border: 'hsl(var(--border))',
