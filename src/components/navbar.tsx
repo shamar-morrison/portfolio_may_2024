@@ -8,15 +8,15 @@ const navLinks: NavItem[] = [
   },
   {
     name: 'About',
-    link: '/about',
+    link: '#about',
   },
   {
     name: 'Projects',
-    link: '/projects',
+    link: '#projects',
   },
   {
     name: 'Contact',
-    link: '/contact',
+    link: '#contact',
   },
 ]
 

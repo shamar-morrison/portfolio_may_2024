@@ -13,11 +13,11 @@ function Hero() {
         <span className='ml-4 text-[5rem]'>👋</span>
       </div>
       <div className='flex items-center gap-1 text-lg leading-tight'>
-        <p className='text-[##050748]'>
+        <p className='text-[#050748]'>
           I am a passionate Software Engineer with an interest in
         </p>
         <WordRotate
-          className='text-lg font-bold text-[##050748]'
+          className='text-lg font-bold text-[#050748]'
           words={[
             'Web Development.',
             'UI/UX Design.',
